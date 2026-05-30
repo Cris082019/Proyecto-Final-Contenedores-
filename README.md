@@ -42,9 +42,23 @@ Por ultimo YOLO ejecuta y trae las imágenes, en el resultado nos muestra margen
 <img width="1163" height="283" alt="image" src="https://github.com/user-attachments/assets/8cf79719-54d1-4517-a68b-454d2ccf4aeb" /><br><br>
 
 ## ***CHATBOT***
+Se ejecutan los comandos para crear el archivo de YOLO-CHATBOT.
+<img width="1163" height="283" alt="image" src="https://github.com/user-attachments/assets/6c455ccb-d710-4da4-a2a5-e96392e9e73c" /><br><br>
 
+Se ejecuta el comando app.py el cual trae carpetas con audio y escritura esto con el fin de hacer preguntas por medio de texto y voz.
+<img width="1163" height="283" alt="image" src="https://github.com/user-attachments/assets/3e8ed784-7e03-4b2b-84eb-7f1df9511b04" /><br><br>
 
+Se crea la imagen del contenedor, las cuales debe llamar las demás carpetas que se implementaran en el transcurso de la ejecución.
+<img width="1163" height="283" alt="image" src="https://github.com/user-attachments/assets/0f2fa6b8-3b92-4429-bdab-ce118b94c574" /><br><br>
 
+Implementación de Chatbot con YOLO, se crean las carpetas para que pueda funcionar, esto desde un contenedor de Docker.
+<img width="1163" height="283" alt="image" src="https://github.com/user-attachments/assets/e7b8c369-1f4b-4611-b0e1-182c4ab8d0fc" /><br><br>
+
+Se crean las rutas en las mismas carpetas para que pueda ver las fotos y así pueda contestar preguntas acerca de las imágenes que tiene YOLO en el contenedor.
+<img width="1163" height="283" alt="image" src="https://github.com/user-attachments/assets/fa985898-11f5-4898-ac1d-950a1d72cf35" /><br><br>
+
+Finalmente, se puede visualizar el Chatbot creado, se tuvo errores pero responde de acuerdo a las imágenes que se incorporaron en YOLO, este Chatbot se abre localmente por el puerto 7860, esta configuración se realizo desde los comando ejecutados, se puede realizar el cambio del puerto si se desea, este puerto debe estar libre, de lo contrario no funcionara.
+<img width="1163" height="283" alt="image" src="https://github.com/user-attachments/assets/239e7a1a-2308-4fc4-8e61-d598cab82d87" /><br><br>
 
 
 

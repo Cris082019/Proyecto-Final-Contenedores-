@@ -24,7 +24,28 @@ Lo que se realizo en Roboflow fue crear un proyecto, despues de crearlo empezar 
 <img width="1163" height="545" alt="image" src="https://github.com/user-attachments/assets/739b7917-0eb5-4e28-a126-826d7ca52a0f" /><br><br>
 
 Despues de varios intentos y scripts enviados se logra implementar YOLO sin ninguna novedad, siempre habia un error ya sea por que no reconocia mi usuario creado en Roboflow o por que la APPI no estaba funcionando, también hubo errores donde escribi mal la carpeta del proyecto de Roboflow y tampoco se ejecutaba.
-<p align="center"><img width="621" height="283" alt="image" src="https://github.com/user-attachments/assets/4aeff536-c643-4bc4-981e-cb9045833e16" /><img width="621" height="283" alt="image" src="https://github.com/user-attachments/assets/60cb20d2-2d3d-4771-bd23-f2dce1409e7d" /><img width="283" height="510" alt="image" src="https://github.com/user-attachments/assets/6b670231-cf7a-43eb-bfea-5e0283aa2ed1" /></p><br><br>
+<p align="center"><img width="621" height="283" alt="image" src="https://github.com/user-attachments/assets/4aeff536-c643-4bc4-981e-cb9045833e16" /><img width="621" height="283" alt="image" src="https://github.com/user-attachments/assets/60cb20d2-2d3d-4771-bd23-f2dce1409e7d" /><img width="621" height="283" alt="image" src="https://github.com/user-attachments/assets/6b670231-cf7a-43eb-bfea-5e0283aa2ed1" /></p><br><br>
+
+Creacion de carpeta para que funcionen YOLO de la mano de Roboflow.
+<img width="1163" height="283" alt="image" src="https://github.com/user-attachments/assets/fc215069-b9c5-4492-94c5-f63d31018757" /><br><br>
+
+Se envia Script para que Roboflow sea verificado.
+<img width="1163" height="283" alt="image" src="https://github.com/user-attachments/assets/949c452b-c426-4fe4-959e-126ff6005f44" /><br><br>
+
+Se envia Script para un entrenamiento, esto también es para que Roboflow responda a la petición.
+<img width="1163" height="283" alt="image" src="https://github.com/user-attachments/assets/4cca0075-f0b1-4d41-b27d-ea883a3a67f4" /><br><br>
+
+Se ejecutan estos comandos para que corran las carpetas de YOLO, worspace que es la que contiene la información de Roboflow creada con mi usuario, también corre la CPU de Roboflow, y por ultimo crea archivos nuevo en la carpeta de Ultralytics Settings v0.0.6 file.
+<img width="1163" height="283" alt="image" src="https://github.com/user-attachments/assets/36156a24-a9ef-4157-8c7e-d90fb4e671cb" /><br><br>
+
+Por ultimo YOLO ejecuta y trae las imágenes, en el resultado nos muestra margen de errores por cada imagen, el peso y cuanto se demora en subir la información de la misma.
+<img width="1163" height="283" alt="image" src="https://github.com/user-attachments/assets/8cf79719-54d1-4517-a68b-454d2ccf4aeb" /><br><br>
+
+## ***CHATBOT***
+
+
+
+
 
 
 

@@ -60,6 +60,17 @@ Se crean las rutas en las mismas carpetas para que pueda ver las fotos y así pu
 Finalmente, se puede visualizar el Chatbot creado, se tuvo errores pero responde de acuerdo a las imágenes que se incorporaron en YOLO, este Chatbot se abre localmente por el puerto 7860, esta configuración se realizo desde los comando ejecutados, se puede realizar el cambio del puerto si se desea, este puerto debe estar libre, de lo contrario no funcionara.
 <img width="1163" height="283" alt="image" src="https://github.com/user-attachments/assets/239e7a1a-2308-4fc4-8e61-d598cab82d87" /><br><br>
 
+## ***KUBERNETES***
+
+Para poder trabajar en las modificaciones de la máquina virtual debian 12 se activa el servidor de ssh para poder conectarse por medio de la IP.
+<img width="1163" height="283" alt="image" src="https://github.com/user-attachments/assets/47b7ffb4-44ae-4edb-9aa0-a253f80b7de1" /><br><br>
+
+Verificacion de que el kubernet está funcionando dentro de la máquina virtual.
+<img width="1163" height="283" alt="image" src="https://github.com/user-attachments/assets/0acf4d53-48a0-4100-a59f-90544973739b" /><br><br>
+
+Validación de datos claves como lo son la cantidad de Kubernetes, versión, días en uso, IP por la que se tiene acceso y la imagen usada para la configuración.
+<img width="921" height="54" alt="image" src="https://github.com/user-attachments/assets/920a8a61-5de1-4bc0-af2f-bfaf5f1db8ea" /><br><br>
+
 
 
 

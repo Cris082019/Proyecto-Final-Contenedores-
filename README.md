@@ -71,6 +71,52 @@ Verificacion de que el kubernet está funcionando dentro de la máquina virtual.
 Validación de datos claves como lo son la cantidad de Kubernetes, versión, días en uso, IP por la que se tiene acceso y la imagen usada para la configuración.
 <img width="921" height="54" alt="image" src="https://github.com/user-attachments/assets/920a8a61-5de1-4bc0-af2f-bfaf5f1db8ea" /><br><br>
 
+verificación de los Pods que se crearon para lograr que tener todas las funcionalidades y configuraciones que fueron necesarias para el proyecto final, en este caso especial se tienen varios pods como lo son los que usan aragonés que funciona como una administrador automático del servidor del juego, supertuxkart la imagen que se guarda dentro de la WM para que funcione como servidor, calico-node que tiene la funcionalidad de red para que cada Pod que se cree se pueda comunicar por medio de una IP,  metrics-server función principal que nos ayuda a tener métricas en tiempo real de la memoria RAM y procesador que se usan por parte de los Pods, para tener un monitoreo de los diferentes servicios que se tienen configurados, se usó una combinación de herramientas para tener métricas en tiempo real telegraf que recolecta la información, influxdb que funciona como una base de datos local, para que la plataforma de grafana logre tener acceso y mostrar la información que se obtiene del sistema.
+
+🔴Agones 
+<img width="921" height="107" alt="image" src="https://github.com/user-attachments/assets/654334bf-d903-4d8b-b583-cb9cb01afceb" /><br><br>
+
+🔴Juego
+<img width="921" height="31" alt="image" src="https://github.com/user-attachments/assets/55d7c2ff-9743-42ac-badb-01855c59326e" /><br><br>
+
+🔴Bade de datos
+<img width="921" height="27" alt="image" src="https://github.com/user-attachments/assets/d8849f5b-96fd-4787-a305-ce8a2721081c" /><br><br>
+
+🔴Plataforma de recolección
+<img width="921" height="27" alt="image" src="https://github.com/user-attachments/assets/de15ca15-8c43-4181-b42f-87c56702d6ba" /><br><br>
+
+Resumen
+<img width="921" height="416" alt="image" src="https://github.com/user-attachments/assets/7f985a75-15bc-487b-ad26-d2922933c90a" /> 
+<img width="921" height="416" alt="image" src="https://github.com/user-attachments/assets/b381d468-8113-4241-8290-f45ba9576ebe" /><br><br>
+
+Fallas que se presentaron en la configuración
+1-	para este se intentó como primera opción usar el sistema de monitoreo prometheus que nos ayuda a tener una supervisión de los recursos que se usa dentro del kubernet como lo son uso de CPU, uso de memoria, estado de pods, estado de nodos entro otros, la información recolectada se conecta con grafana plataforma que nos permite crear de manera grafica dashborad para entender de manera sencilla todo lo que pasa de manera interna, se tuvo falla con el exportador de la información que usaba prometheus ya que el servicio se detenía después de uno segundos de iniciar, por lo que se tuvo que usar una herramienta diferente para lograr tener métricas, en la imagen se puede observar como el prometheus presenta fallas en 2 de los 3 servicios al igual se ha intentado reiniciar el servicio para intentar recuperar la funcionalidad lo cual no fue posible, para el acceso se uso la IP y puerto http://192.168.139.135:9090.
+<img width="921" height="34" alt="image" src="https://github.com/user-attachments/assets/934de152-e7cd-40ba-8c67-910a9995499f" />
+<img width="921" height="252" alt="image" src="https://github.com/user-attachments/assets/20af6c2c-8259-43dd-9545-911f731087ff" />
+
+2-	se intentó usa la plataforma Netdata para la recolección de datos, el cual funciono se logró tener medidas de los recursos del equipo, pero se tiene la limitante que es una plataforma que ya tiene parámetros predeterminados lo que no permite tener un detalle tan especifico como lo pide el proyecto, en este caso se usó la IP y puerto http://192.168.139.135:19999
+3-	Fallas en la configuración de las ACL dentro del Router, se intentó realizar la configuración del router usando la red de la universidad con el fin de separar el tráfico del equipo donde está instalado el kubernete y el Doker, la idea era realizar dos VLAN con segmentos y que el ruter hiciera el nate o para que desde el grafana se pudiera tener un tráfico limpio, después de varias pruebas realizadas no fue posible debido a que la red de la universidad tiene muchos bloqueos.
+<img width="616" height="674" alt="image" src="https://github.com/user-attachments/assets/204131ed-2cf0-47a9-9aaa-85420fe5ec12" />
+
+
+configuración de dashboard dentro de grafana 
+Se tiene 3 métricas que se recolectan de los kubernetes, tráfico recibido y enviado, máximo y mínimo de la memoria RAM, uso del procesador, para el ingreso por web se usura la IP y el puerto http://192.168.139.135:3000.
+<img width="921" height="493" alt="image" src="https://github.com/user-attachments/assets/0daeb689-ceef-4a35-ab35-6562ee7ff235" /><br><br>
+Se valida de que se este usando la base de datos que está conectada al kubernete,
+<img width="921" height="254" alt="image" src="https://github.com/user-attachments/assets/ea6e55bb-510d-4096-82a0-a83b10ff8018" /><br><br>
+
+Uso del juego dentro del equipo local
+De forma inicial se configura una IP con el puerto 192.168.139.135:8080 para que se pueda usar como servidor el kubernete, esto para que se pueda usar como se menciona en el proyecto de conectar varias máquinas para ver la calidad del tráfico UDP, TCP, y la estabilidad que se tiene para la red al tener varios equipos al mismo tiempo, con la finalidad de entender un poco más, de cómo ver tableros de plataforma y entender cuando algo está funcionando bien o cuando no, para poder tomar medidas preventivas y evitar fallas de un sistema. 
+
+Usar la Ip y el puerto seleccionado para el uso del juego como cliente 
+<img width="921" height="713" alt="image" src="https://github.com/user-attachments/assets/797628d0-586d-4589-9674-25b704cb26d4" /><br><br>
+
+Usar la Ip y el puerto seleccionado para el uso del juego como cliente.
+<img width="1163" height="283" alt="image" src="https://github.com/user-attachments/assets/d17a4524-b3b0-42bc-b917-49a5c5c04900" /><img width="1163" height="283" alt="image" src="https://github.com/user-attachments/assets/5bc24be8-a2d4-4384-99b6-e119e5447dd1" /><img width="921" height="737" alt="image" src="https://github.com/user-attachments/assets/e4f653e2-9393-4be0-93bf-a8b0e5a0e03a" /><img width="1163" height="283  " alt="image" src="https://github.com/user-attachments/assets/93632d55-ed62-4cc4-97b8-b685d06270d8" /><img width="921" height="737" alt="image" src="https://github.com/user-attachments/assets/47633807-1a39-4048-a8df-81a9e4884501" />
+
+
+
+
 
 
 

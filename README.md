@@ -112,12 +112,7 @@ Usar la Ip y el puerto seleccionado para el uso del juego como cliente
 <img width="921" height="713" alt="image" src="https://github.com/user-attachments/assets/797628d0-586d-4589-9674-25b704cb26d4" /><br><br>
 
 Usar la Ip y el puerto seleccionado para el uso del juego como cliente.
-<p align="center"><img width="921" height="737" alt="image" src="https://github.com/user-attachments/assets/d17a4524-b3b0-42bc-b917-49a5c5c04900" /><img width="921" height="737" alt="image" src="https://github.com/user-attachments/assets/5bc24be8-a2d4-4384-99b6-e119e5447dd1" /><img width="921" height="737" alt="image" src="https://github.com/user-attachments/assets/e4f653e2-9393-4be0-93bf-a8b0e5a0e03a" /><img width="921" height="737  " alt="image" src="https://github.com/user-attachments/assets/93632d55-ed62-4cc4-97b8-b685d06270d8" /><img width="921" height="737" alt="image" src="https://github.com/user-attachments/assets/47633807-1a39-4048-a8df-81a9e4884501" /> <img width="921" height="737" alt="image" src="https://github.com/user-attachments/assets/1e062613-ef2a-4454-84ca-f0c58ce82b1e" /><img width="921" height="763" alt="image" src="https://github.com/user-attachments/assets/c53caba7-c3b0-4d43-994c-84a9e22c7c71" /></p><br><br>
+<p align="center"><img width="921" height="737" alt="image" src="https://github.com/user-attachments/assets/d17a4524-b3b0-42bc-b917-49a5c5c04900" /><img width="921" height="737" alt="image" src="https://github.com/user-attachments/assets/5bc24be8-a2d4-4384-99b6-e119e5447dd1" /><img width="921" height="737" alt="image" src="https://github.com/user-attachments/assets/e4f653e2-9393-4be0-93bf-a8b0e5a0e03a" /><img width="921" height="737  " alt="image" src="https://github.com/user-attachments/assets/93632d55-ed62-4cc4-97b8-b685d06270d8" /><img width="921" height="737" alt="image" src="https://github.com/user-attachments/assets/47633807-1a39-4048-a8df-81a9e4884501" /> <img width="921" height="737" alt="image" src="https://github.com/user-attachments/assets/1e062613-ef2a-4454-84ca-f0c58ce82b1e" /></p><br><br>
 
 Aumento de consumo de recursos del kubernete
 <img width="921" height="479" alt="image" src="https://github.com/user-attachments/assets/ad446f76-f8f9-4425-b3d1-32c0d146c8ca" />
-
-
-
-
-

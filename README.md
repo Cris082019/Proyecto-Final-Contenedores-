@@ -4,3 +4,7 @@ Para el proyecto se debe seguir los parámetros de configuración y entrega, de 
 <img width="1163" height="545" alt="image" src="https://github.com/user-attachments/assets/10cc4d0a-10f9-44e1-826e-ae43b267e708" /><br><br>
 
 ## ***YOLO***
+
+Para la creación de la imagen de YOLO como contenedor en Docker hubo muchos problemas 
+<img width="1163" height="545" alt="image" src="https://github.com/user-attachments/assets/abd4702f-40f0-49bd-ac7f-3a59ca396dad" />
+

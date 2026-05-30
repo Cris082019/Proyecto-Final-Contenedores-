@@ -24,7 +24,7 @@ Lo que se realizo en Roboflow fue crear un proyecto, despues de crearlo empezar 
 <img width="1163" height="545" alt="image" src="https://github.com/user-attachments/assets/739b7917-0eb5-4e28-a126-826d7ca52a0f" /><br><br>
 
 Despues de varios intentos y scripts enviados se logra implementar YOLO sin ninguna novedad, siempre habia un error ya sea por que no reconocia mi usuario creado en Roboflow o por que la APPI no estaba funcionando, también hubo errores donde escribi mal la carpeta del proyecto de Roboflow y tampoco se ejecutaba.
-<p align="center"><img width="621" height="283" alt="image" src="https://github.com/user-attachments/assets/4aeff536-c643-4bc4-981e-cb9045833e16" /><img width="621" height="283" alt="image" src="https://github.com/user-attachments/assets/60cb20d2-2d3d-4771-bd23-f2dce1409e7d" /></p><br><br>
+<p align="center"><img width="621" height="283" alt="image" src="https://github.com/user-attachments/assets/4aeff536-c643-4bc4-981e-cb9045833e16" /><img width="621" height="283" alt="image" src="https://github.com/user-attachments/assets/60cb20d2-2d3d-4771-bd23-f2dce1409e7d" /><img width="283" height="510" alt="image" src="https://github.com/user-attachments/assets/6b670231-cf7a-43eb-bfea-5e0283aa2ed1" /></p><br><br>
 
 
 
